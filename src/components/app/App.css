@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  margin: 0 15% 0 15%;
+}
+
+#root{
+  width: 99%;
+}
+body {
+  background-color: rgba(243, 247, 250, 1);
+  display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:focus {
+  background: #ececec;
+}
+.tabs-and-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin-left: 25%;
+}
+
+.load-more-button {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(33, 150, 243);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 12px;
+  line-height: 20;
+  border: 1px transparent solid;
+  border-radius: 1em;
+  align-items: center;
+}
+.space-left {
+  order: 4;
+}

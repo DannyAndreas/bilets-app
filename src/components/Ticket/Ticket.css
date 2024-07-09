@@ -1,0 +1,49 @@
+.ticket {
+  border-radius: 1em;
+  border: 1px transparent solid;
+  min-height: 184px;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px 30px 30px 0;
+  width: inherit;
+  padding: 0 0 10px 0;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  padding: 0 40px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 1em;
+  justify-items: center;
+}
+
+.price {
+  font-size: 24px;
+  color: rgba(33, 150, 243);
+}
+
+.airline-logo {
+  min-width: 27%;
+  max-width: 27%;
+  max-height: 36px;
+  min-height: 36px;
+}
+.stops {
+  min-width: 110px;
+}
+
+.grayFont {
+  color: rgba(160, 176, 185, 1);
+  padding: 10px 0 10px 0;
+}
+.blackFont {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(74, 74, 74, 1);
+}

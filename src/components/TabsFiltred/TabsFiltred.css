@@ -1,0 +1,32 @@
+.tickets {
+  width: 99%;
+  border: 1px transparent solid;
+}
+
+.ant-radio-group {
+  width: 99%; /* ЫЭлемент займет всю доступную ширину */
+  color: white;
+}
+
+.ant-radio-button-wrapper {
+  width: calc(100% / 3); /* Разделите 100% на количество кнопок в группе */
+  height: 50px; /* Задаем высоту кнопок */
+  line-height: 50px; /* Выравниваем текст по вертикали */
+  font-family: 'Open-Sans', sans-serif;
+  color: rgba(74, 74, 74, 1);
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #fff; /* Цвет текста */
+  background-color: #1890ff; /* Синий цвет фона */
+  border-color: #1890ff; /* Синий цвет границы */
+}
+
+.ant-radio-button-wrapper:hover {
+  background-color: #e6f7ff; /* Светло-синий цвет фона */
+  border-color: #91d5ff; /* Светло-синий цвет границы */
+}
+
+.ant-radio-button-wrapper span {
+  display: flex;
+  justify-content: center;
+}

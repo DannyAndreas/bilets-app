@@ -1,0 +1,27 @@
+.loader {
+  width: 99%;
+  background-color: rgba(243, 247, 250, 1);;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 30px 0 30px 30px;
+
+}
+
+.loader::after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0;
+  background-color: #3498db;
+  animation: load 2s linear infinite;
+  border-radius: 2px;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

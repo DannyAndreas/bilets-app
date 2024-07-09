@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  height: 252px;
+  min-height: 252px;
+  border-radius: 1em;
+  justify-self: flex-start;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+}
+
+.filter-label {
+  display: flex;
+  width: -webkit-fill-available;
+  height: 40px;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.filter-label:hover {
+  background-color: rgba(241, 252, 255, 1);
+}
+
+.filter-label.checked {
+  background-color: rgba(241, 252, 255, 1);
+}
+.filter-label input[type='checkbox'] {
+  transform: scale(1.5);
+}
+
+.filter-label_title {
+  margin-left: 10px;
+}
+
+.filter-containner_title {
+  color: rgba(74, 74, 74, 1);
+  letter-spacing: 0.5px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin: 20px 20px 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  width: 192px;
+  align-self: center;
+  justify-content: center;
+}
